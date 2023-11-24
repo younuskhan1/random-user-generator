@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#random-section {
+    /* border: 2px solid violet; */
+    margin: 0px 30px 0px;
+    text-align: center;
+    height: 550px;
+}
+
+#random-section p {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.random-image {
+    height: 200px;
+    width: 250px;
+    padding-top: 10px;
+}
+
+.button-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.new-user-button {
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #27ae60;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+}
+
+.new-user-button:hover {
+    background-color: blue;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
