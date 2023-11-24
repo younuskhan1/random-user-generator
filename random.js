@@ -1,5 +1,7 @@
 const loadRandomUsers = async () => {
-    const url = `https://randomuser.me/api/?gender=female`;
+    // If you want to see all female or male, just change
+    //  the male or female after = (equal to) sign of this below url. 
+    const url = `https://randomuser.me/api/?gender=male`;
     try {
         const res = await fetch(url);
         const data = await res.json();
@@ -27,6 +29,5 @@ const displayRandomUsers = (randomUser) => {
     <p> My Location : ${randomUser.location.street.name} ${randomUser.location.city} ${randomUser.location.state} ${randomUser.location.country}</p>
        `;
 }
-
 
 loadRandomUsers();
